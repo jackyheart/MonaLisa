@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD289D9C13D07B6B007481DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD289D9B13D07B6B007481DD /* UIKit.framework */; };
+		CD289D9E13D07B6B007481DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD289D9D13D07B6B007481DD /* Foundation.framework */; };
+		CD289DA013D07B6B007481DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD289D9F13D07B6B007481DD /* CoreGraphics.framework */; };
+		CD289DA613D07B6B007481DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD289DA413D07B6B007481DD /* InfoPlist.strings */; };
+		CD289DA913D07B6B007481DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD289DA813D07B6B007481DD /* main.m */; };
+		CD289DAC13D07B6B007481DD /* MonaLisaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD289DAB13D07B6B007481DD /* MonaLisaAppDelegate.m */; };
+		CD289DAF13D07B6B007481DD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD289DAD13D07B6B007481DD /* MainWindow.xib */; };
+		CD289DB213D07B6B007481DD /* MonaLisaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD289DB113D07B6B007481DD /* MonaLisaViewController.m */; };
+		CD289DB513D07B6B007481DD /* MonaLisaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD289DB313D07B6B007481DD /* MonaLisaViewController.xib */; };
+		CD29F8A113D2A4820080E4F2 /* Mona_Lisa_uv_so_dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD29F8A013D2A4820080E4F2 /* Mona_Lisa_uv_so_dark.jpg */; };
+		CD320A9B13D1DC8500AD4FF9 /* 300px-Mona_Lisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD320A9613D1DC8500AD4FF9 /* 300px-Mona_Lisa.jpg */; };
+		CD320A9C13D1DC8500AD4FF9 /* mona_base.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD320A9713D1DC8500AD4FF9 /* mona_base.jpg */; };
+		CD320A9D13D1DC8500AD4FF9 /* Mona_Lisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD320A9813D1DC8500AD4FF9 /* Mona_Lisa.jpg */; };
+		CD320A9E13D1DC8500AD4FF9 /* Mona_Lisa_uv.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD320A9913D1DC8500AD4FF9 /* Mona_Lisa_uv.jpg */; };
+		CD320A9F13D1DC8500AD4FF9 /* so_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = CD320A9A13D1DC8500AD4FF9 /* so_dark.png */; };
+		CD320AA213D1DDDD00AD4FF9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD320AA113D1DDDD00AD4FF9 /* QuartzCore.framework */; };
+		CD320AA513D1E16E00AD4FF9 /* black_blurred.png in Resources */ = {isa = PBXBuildFile; fileRef = CD320AA313D1E16E00AD4FF9 /* black_blurred.png */; };
+		CD320AA613D1E16E00AD4FF9 /* WX_circle_black.png in Resources */ = {isa = PBXBuildFile; fileRef = CD320AA413D1E16E00AD4FF9 /* WX_circle_black.png */; };
+		CDED74FD13D2ABC100C2EBF5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDED74FC13D2ABC100C2EBF5 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD289D9713D07B6B007481DD /* MonaLisa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonaLisa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD289D9B13D07B6B007481DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD289D9D13D07B6B007481DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD289D9F13D07B6B007481DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD289DA313D07B6B007481DD /* MonaLisa-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonaLisa-Info.plist"; sourceTree = "<group>"; };
+		CD289DA513D07B6B007481DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD289DA713D07B6B007481DD /* MonaLisa-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonaLisa-Prefix.pch"; sourceTree = "<group>"; };
+		CD289DA813D07B6B007481DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD289DAA13D07B6B007481DD /* MonaLisaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonaLisaAppDelegate.h; sourceTree = "<group>"; };
+		CD289DAB13D07B6B007481DD /* MonaLisaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonaLisaAppDelegate.m; sourceTree = "<group>"; };
+		CD289DAE13D07B6B007481DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CD289DB013D07B6B007481DD /* MonaLisaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonaLisaViewController.h; sourceTree = "<group>"; };
+		CD289DB113D07B6B007481DD /* MonaLisaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonaLisaViewController.m; sourceTree = "<group>"; };
+		CD289DB413D07B6B007481DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MonaLisaViewController.xib; sourceTree = "<group>"; };
+		CD29F8A013D2A4820080E4F2 /* Mona_Lisa_uv_so_dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mona_Lisa_uv_so_dark.jpg; sourceTree = "<group>"; };
+		CD320A9613D1DC8500AD4FF9 /* 300px-Mona_Lisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "300px-Mona_Lisa.jpg"; sourceTree = "<group>"; };
+		CD320A9713D1DC8500AD4FF9 /* mona_base.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mona_base.jpg; sourceTree = "<group>"; };
+		CD320A9813D1DC8500AD4FF9 /* Mona_Lisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mona_Lisa.jpg; sourceTree = "<group>"; };
+		CD320A9913D1DC8500AD4FF9 /* Mona_Lisa_uv.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mona_Lisa_uv.jpg; sourceTree = "<group>"; };
+		CD320A9A13D1DC8500AD4FF9 /* so_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = so_dark.png; sourceTree = "<group>"; };
+		CD320AA113D1DDDD00AD4FF9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CD320AA313D1E16E00AD4FF9 /* black_blurred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_blurred.png; sourceTree = "<group>"; };
+		CD320AA413D1E16E00AD4FF9 /* WX_circle_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WX_circle_black.png; sourceTree = "<group>"; };
+		CDED74FC13D2ABC100C2EBF5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD289D9413D07B6B007481DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD320AA213D1DDDD00AD4FF9 /* QuartzCore.framework in Frameworks */,
+				CD289D9C13D07B6B007481DD /* UIKit.framework in Frameworks */,
+				CD289D9E13D07B6B007481DD /* Foundation.framework in Frameworks */,
+				CD289DA013D07B6B007481DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD289D8C13D07B6B007481DD = {
+			isa = PBXGroup;
+			children = (
+				CD289DA113D07B6B007481DD /* MonaLisa */,
+				CD289D9A13D07B6B007481DD /* Frameworks */,
+				CD289D9813D07B6B007481DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD289D9813D07B6B007481DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD289D9713D07B6B007481DD /* MonaLisa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD289D9A13D07B6B007481DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD320AA113D1DDDD00AD4FF9 /* QuartzCore.framework */,
+				CD289D9B13D07B6B007481DD /* UIKit.framework */,
+				CD289D9D13D07B6B007481DD /* Foundation.framework */,
+				CD289D9F13D07B6B007481DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD289DA113D07B6B007481DD /* MonaLisa */ = {
+			isa = PBXGroup;
+			children = (
+				CD320A9513D1DC8500AD4FF9 /* images */,
+				CD289DAA13D07B6B007481DD /* MonaLisaAppDelegate.h */,
+				CD289DAB13D07B6B007481DD /* MonaLisaAppDelegate.m */,
+				CD289DAD13D07B6B007481DD /* MainWindow.xib */,
+				CD289DB013D07B6B007481DD /* MonaLisaViewController.h */,
+				CD289DB113D07B6B007481DD /* MonaLisaViewController.m */,
+				CD289DB313D07B6B007481DD /* MonaLisaViewController.xib */,
+				CD289DA213D07B6B007481DD /* Supporting Files */,
+			);
+			path = MonaLisa;
+			sourceTree = "<group>";
+		};
+		CD289DA213D07B6B007481DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD289DA313D07B6B007481DD /* MonaLisa-Info.plist */,
+				CD289DA413D07B6B007481DD /* InfoPlist.strings */,
+				CD289DA713D07B6B007481DD /* MonaLisa-Prefix.pch */,
+				CD289DA813D07B6B007481DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD320A9513D1DC8500AD4FF9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CDED74FC13D2ABC100C2EBF5 /* Icon.png */,
+				CD29F8A013D2A4820080E4F2 /* Mona_Lisa_uv_so_dark.jpg */,
+				CD320AA313D1E16E00AD4FF9 /* black_blurred.png */,
+				CD320AA413D1E16E00AD4FF9 /* WX_circle_black.png */,
+				CD320A9613D1DC8500AD4FF9 /* 300px-Mona_Lisa.jpg */,
+				CD320A9713D1DC8500AD4FF9 /* mona_base.jpg */,
+				CD320A9813D1DC8500AD4FF9 /* Mona_Lisa.jpg */,
+				CD320A9913D1DC8500AD4FF9 /* Mona_Lisa_uv.jpg */,
+				CD320A9A13D1DC8500AD4FF9 /* so_dark.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD289D9613D07B6B007481DD /* MonaLisa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD289DB813D07B6B007481DD /* Build configuration list for PBXNativeTarget "MonaLisa" */;
+			buildPhases = (
+				CD289D9313D07B6B007481DD /* Sources */,
+				CD289D9413D07B6B007481DD /* Frameworks */,
+				CD289D9513D07B6B007481DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonaLisa;
+			productName = MonaLisa;
+			productReference = CD289D9713D07B6B007481DD /* MonaLisa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD289D8E13D07B6B007481DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					CD289D9613D07B6B007481DD = {
+						DevelopmentTeam = K63E82JPAC;
+					};
+				};
+			};
+			buildConfigurationList = CD289D9113D07B6B007481DD /* Build configuration list for PBXProject "MonaLisa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD289D8C13D07B6B007481DD;
+			productRefGroup = CD289D9813D07B6B007481DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD289D9613D07B6B007481DD /* MonaLisa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD289D9513D07B6B007481DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD289DA613D07B6B007481DD /* InfoPlist.strings in Resources */,
+				CD289DAF13D07B6B007481DD /* MainWindow.xib in Resources */,
+				CD289DB513D07B6B007481DD /* MonaLisaViewController.xib in Resources */,
+				CD320A9B13D1DC8500AD4FF9 /* 300px-Mona_Lisa.jpg in Resources */,
+				CD320A9C13D1DC8500AD4FF9 /* mona_base.jpg in Resources */,
+				CD320A9D13D1DC8500AD4FF9 /* Mona_Lisa.jpg in Resources */,
+				CD320A9E13D1DC8500AD4FF9 /* Mona_Lisa_uv.jpg in Resources */,
+				CD320A9F13D1DC8500AD4FF9 /* so_dark.png in Resources */,
+				CD320AA513D1E16E00AD4FF9 /* black_blurred.png in Resources */,
+				CD320AA613D1E16E00AD4FF9 /* WX_circle_black.png in Resources */,
+				CD29F8A113D2A4820080E4F2 /* Mona_Lisa_uv_so_dark.jpg in Resources */,
+				CDED74FD13D2ABC100C2EBF5 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD289D9313D07B6B007481DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD289DA913D07B6B007481DD /* main.m in Sources */,
+				CD289DAC13D07B6B007481DD /* MonaLisaAppDelegate.m in Sources */,
+				CD289DB213D07B6B007481DD /* MonaLisaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD289DA413D07B6B007481DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD289DA513D07B6B007481DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD289DAD13D07B6B007481DD /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD289DAE13D07B6B007481DD /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CD289DB313D07B6B007481DD /* MonaLisaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD289DB413D07B6B007481DD /* en */,
+			);
+			name = MonaLisaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD289DB613D07B6B007481DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CD289DB713D07B6B007481DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CD289DB913D07B6B007481DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonaLisa/MonaLisa-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MonaLisa/MonaLisa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD289DBA13D07B6B007481DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonaLisa/MonaLisa-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "MonaLisa/MonaLisa-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD289D9113D07B6B007481DD /* Build configuration list for PBXProject "MonaLisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD289DB613D07B6B007481DD /* Debug */,
+				CD289DB713D07B6B007481DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD289DB813D07B6B007481DD /* Build configuration list for PBXNativeTarget "MonaLisa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD289DB913D07B6B007481DD /* Debug */,
+				CD289DBA13D07B6B007481DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD289D8E13D07B6B007481DD /* Project object */;
+}
